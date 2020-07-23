@@ -59,7 +59,7 @@
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
-         "value": "-xyz"
+         "value": "KZ743KKCNBI8"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
