@@ -10,7 +10,6 @@ pynewtonmath
 spongemock
 zalgo-text
 geopy
-nltk
 psutil
 aiohttp>=2.2.5
 Pillow>=4.2.0
@@ -21,3 +20,10 @@ speedtest-cli
 coffeehouse
 regex
 wikipedia
+demjson
+bs4
+telegraph
+wget
+gTTs
+#telegram
+lxml
