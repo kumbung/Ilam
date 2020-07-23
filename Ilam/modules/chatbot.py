@@ -17,7 +17,7 @@ from Ilam.modules.log_channel import gloggable
 from Ilam.modules.helper_funcs.filters import CustomFilters
 from Ilam.modules.helper_funcs.chat_status import user_admin
 
-CoffeeHouseAPI = API(AI_API_KEY)
+CoffeeHouseAPI = API(APP387f71305ba41f7f790ea38ef01bdebf0400705c5b69f1811327a4740fd2fc669994f808)
 api_client = LydiaAI(CoffeeHouseAPI)
 
 
