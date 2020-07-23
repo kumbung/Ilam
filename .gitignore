@@ -1,0 +1,16 @@
+Ilam/config.py
+Ilam/*.session
+Ilam/*.session-journal
+Ilam/config.ini
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
+Ilam/modules/helper_funcs/temp.txt
+Ilam/elevated_users.json
+start-3.6.bat
+*.session
+kangsticker.png
+venv
