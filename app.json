@@ -55,7 +55,7 @@
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
-         "value": "-xyz"
+         "value": "8JD544ZX0HTJDG8G"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
