@@ -40,7 +40,7 @@ class Config(object):
     WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = None # Get one from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = '8JD544ZX0HTJDG8G' # Get one from https://www.alphavantage.co/support/#api-key
     TIME_API_KEY = 'KZ743KKCNBI8' # Get one from https://timezonedb.com/register
     AI_API_KEY = 'APP387f71305ba41f7f790ea38ef01bdebf0400705c5b69f1811327a4740fd2fc669994f808' # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
     WALL_API = '4f1a9a2374e83bf681e4ab7c6d43fcd5' # Get one from https://wall.alphacoders.com/api.php
