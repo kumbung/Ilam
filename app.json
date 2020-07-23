@@ -1,0 +1,119 @@
+{
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "description": "Ilam Telegram group management bot.",
+   "env": {
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /",
+         "value": "True"
+      },
+      "BAN_STICKER": {
+         "description": "ID of the sticker you want to use when banning people.",
+         "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+      "DONATION_LINK": {
+         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
+         "required": false,
+         "value": "https://www.paypal.me/ilam96"
+      },
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "value": "ANYTHING"
+      },
+      "MESSAGE_DUMP": { "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old", 
+      "value": "-1007777777777"
+      },      
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "value": "1117300754"
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username",
+         "value": "Dewihoki"
+      },
+      "DEV_USERS": {
+         "description": "ID of users who are Devs of your bot (can use /py etc.)",
+         "required": false,
+         "value": "1117300754"
+      },
+      "GBAN_LOGS": {
+         "description": "Gban log channel, include the hyphen too: ex: -123456",
+         "value": "-123"
+      },
+      "CASH_API_KEY": {
+         "description": "Required for currency converter",
+         "value": "8JD544ZX0HTJDG8G"
+      },
+      "TIME_API_KEY": {
+         "description": "Required for timezone information",
+         "value": "KZ743KKCNBI8"
+      },
+      "PORT": {
+         "description": "Port to use for your webhooks.",
+         "value": "8443"
+      },
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "true"
+      },
+      "SUDO_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "value": "1117300754"
+      },
+      "SUPPORT_USERS": {
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "value": "1117300754"
+      },
+      "TIGER_USERS": {
+         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "required": true,
+         "value": "1117300754"
+      },
+      "TOKEN": {
+         "description": "Your bot token.",
+         "value": "1259741177:AAFDSKhgHnSrWfeUDvP3fHuP2S2safcsGQM"
+      },
+      "SUPPORT_CHAT": {
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: @MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
+         "required": false,
+         "value": ""
+      },   
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "value": "https://ilam.herokuapp.com/"
+      },
+      "WEBHOOK": {
+         "description": "Setting this to ANYTHING will enable webhooks.",": false,
+         "value": "ANYTHING"
+      },
+      "BL_CHATS": {
+         "description": "List of chats you want blacklisted.",
+         "required": false,
+         "value": ""
+      },      
+      "WHITELIST_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "value": "1117300754"
+      }
+   },
+   "keywords": [
+      "telegram",
+      "weeb",
+      "group",
+      "manager",
+      "Ilam"
+      "3"
+   ],
+   "name": "Ilam",
+   "repository": "https://github.com/kumbung/Ilam"
+}
