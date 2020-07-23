@@ -15,16 +15,14 @@
       },
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
-         "value": ""
+         "value": "CAADBQADfQADv7rGI0wxx1ORU7UzAg"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "True"
       },
       "DONATION_LINK": {
-         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
-         "required": false,
+         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to Ilam",
          "value": "https://www.paypal.me/ilam96"
       },
       "ENV": {
@@ -33,7 +31,6 @@
       },
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
@@ -46,7 +43,6 @@
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.)",
-         "required": false,
          "value": "660565862 792109647"
       },
       "GBAN_LOGS": {
@@ -63,8 +59,7 @@
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
-         "required": false,
-         "value": ""
+         "value": "8443"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -72,22 +67,18 @@
       },
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
          "value": "459034222 189005567 660565862 346981140 367222759"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
          "value": "615304572"
       },
       "TIGER_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
-         "required": false,
          "value": ""
       },
       "TOKEN": {
          "description": "Your bot token.",
-         "required": true,
          "value": ""
       },
       "SUPPORT_CHAT": {
@@ -97,22 +88,18 @@
       },   
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
          "value": ""
       },
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks.",
-         "required": false,
-         "value": ""
+         "value": "ANYTHING"
       },
       "BL_CHATS": {
          "description": "List of chats you want blacklisted.",
-         "required": false,
          "value": ""
       },      
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": false,
          "value": ""
       }
    },
