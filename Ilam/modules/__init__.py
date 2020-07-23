@@ -17,9 +17,6 @@ def __list_all_modules():
                 LOGGER.error("Invalid loadorder names. Quitting.")
                 quit(1)
 
-            all_modules = sorted(set(all_modules) - set(to_load))
-            to_load = list(all_modules) + to_load
-
         else:
             to_load = all_modules
 
