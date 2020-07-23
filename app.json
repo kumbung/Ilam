@@ -93,7 +93,7 @@
          "value": "https://ilam.herokuapp.com/"
       },
       "WEBHOOK": {
-         "description": "Setting this to ANYTHING will enable webhooks.",": false,
+         "description": "Setting this to ANYTHING will enable webhooks.",
          "value": "ANYTHING"
       },
       "BL_CHATS": {
